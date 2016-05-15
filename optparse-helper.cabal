@@ -1,5 +1,5 @@
 name:                optparse-helper
-version:             0.1.0.0
+version:             0.2.0.0
 synopsis:            Helper functions for optparse-applicative.
 description:
   The optparse-applicative package, as well as optparse-simple, has some
