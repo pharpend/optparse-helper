@@ -116,11 +116,11 @@ helperPrefs = prefs helperPrefsMod
 -- preferences.
 -- 
 -- > mappend disambiguate showHelpOnError
-helperPrefsMod :: ParserPrefs
+helperPrefsMod :: PrefsMod
 helperPrefsMod = mappend disambiguate showHelpOnError
 
 -- |Wrapper around 'customExecParser', 'helperPrefs', and 'infoHelper'
 -- 
 -- > helperExecParser a b = customExecParser helperPrefs (infoHelper a b)
-helperExecParser :: Parser a -> InfoMod a -> IO ()
+helperExecParser :: Parser a -> InfoMod a -> IO a
 helperExecParser a b = customExecParser helperPrefs (infoHelper a b)
