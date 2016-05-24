@@ -1,5 +1,5 @@
 name:                optparse-helper
-version:             0.2.0.0
+version:             0.2.1.0
 synopsis:            Helper functions for optparse-applicative.
 description:
   The optparse-applicative package, as well as optparse-simple, has some
@@ -36,7 +36,7 @@ library
   default-extensions:
     LambdaCase
   build-depends:
-      base ==4.8.*
+      base >=4.8 && <4.10
     , optparse-applicative
   exposed-modules:
     Options.Applicative.Helper
