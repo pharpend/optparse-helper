@@ -29,6 +29,7 @@ cabal-version:       >=1.10
 extra-source-files:
   LICENSE
   README.md
+  stack.yaml
 
 library
   hs-source-dirs:      src
